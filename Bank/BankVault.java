@@ -1,14 +1,14 @@
 package Bank;
 
-public class Bank {
+public class BankVault {
     private int vault;
 
-    public Bank(int vault, int addCash, int takeCash) {
+    public BankVault(int vault, int addCash, int takeCash) {
         this.vault = vault;
     }
 
-    public void addMoney(int vault) {
-        System.out.println("you add money");
+    protected static void addMoney() {
+        System.out.println("Vault: New money");
     }
 
     public int getVault() {
